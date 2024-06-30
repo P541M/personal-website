@@ -47,22 +47,27 @@ const Navbar = () => {
       <ul className="hidden md:flex font-semibold items-center">
         <li className="p-5 text nav-link">
           <a href="#about">
-            <span>000.</span>About
+            <span>0.</span>About
           </a>
         </li>
         <li className="p-5 nav-link">
           <a href="#experience">
-            <span>001.</span>Experience
+            <span>1.</span>Experience
           </a>
         </li>
         <li className="p-5 nav-link">
           <a href="#projects">
-            <span>002.</span>Projects
+            <span>2.</span>Projects
+          </a>
+        </li>
+        <li className="p-5 nav-link">
+          <a href="#testimonials">
+            <span>3.</span>Testimonials
           </a>
         </li>
         <li className="p-5 nav-link">
           <a href="#contact">
-            <span>003.</span>Contact
+            <span>4.</span>Contact
           </a>
         </li>
         <li className="p-5 flex items-center">
@@ -90,22 +95,27 @@ const Navbar = () => {
         <ul className="font-semibold text-center">
           <li className="py-5 nav-link">
             <a href="#about" onClick={handleNav}>
-              <span>000.</span>About
+              <span>0.</span>About
             </a>
           </li>
           <li className="py-5 nav-link">
             <a href="#experience" onClick={handleNav}>
-              <span>001.</span>Experience
+              <span>1.</span>Experience
             </a>
           </li>
           <li className="py-5 nav-link">
             <a href="#projects" onClick={handleNav}>
-              <span>002.</span>Projects
+              <span>2.</span>Projects
+            </a>
+          </li>
+          <li className="py-5 nav-link">
+            <a href="#testimontials" onClick={handleNav}>
+              <span>3.</span>Testimontials
             </a>
           </li>
           <li className="py-5 nav-link">
             <a href="#contact" onClick={handleNav}>
-              <span>003.</span>Contact
+              <span>4.</span>Contact
             </a>
           </li>
           <li className="py-5 nav-link">
