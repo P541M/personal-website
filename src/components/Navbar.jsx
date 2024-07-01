@@ -37,7 +37,7 @@ const Navbar = () => {
   }, [darkMode]);
 
   return (
-    <div className="z-20 flex justify-between items-center max-w-auto mx-auto h-20 px-4 text-l sticky top-0 bg-light-bg text-light-text dark:bg-dark-bg dark:text-dark-text navbar">
+    <div className="z-50 fixed top-0 left-0 right-0 flex justify-between items-center max-w-auto h-20 px-4 text-l bg-light-bg text-light-text dark:bg-dark-bg dark:text-dark-text navbar">
       {/* Name - centered on small screens */}
       <a href="#home" className="p-5 md:ml-0 mx-auto nav-link">
         <span>Psalm Eleazar</span>
