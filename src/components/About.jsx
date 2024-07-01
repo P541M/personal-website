@@ -15,10 +15,10 @@ const About = () => {
           interfaces and building robust backend systems.
         </p>
         <p className="text-md md:text-xl mb-5 opacity-75">
-          I also have a strong background in design, including video production and
-          digital design, which complements my technical skills. Additionally, I
-          have a background in business and a deep love for all things
-          business-related, constantly seeking to integrate my technical
+          I also have a strong background in design, including video production
+          and digital design, which complements my technical skills.
+          Additionally, I have a background in business and a deep love for all
+          things business-related, constantly seeking to integrate my technical
           expertise with business acumen.
         </p>
         <p className="text-md md:text-xl mb-5 opacity-75">

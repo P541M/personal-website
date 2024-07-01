@@ -90,7 +90,9 @@ const Navbar = () => {
 
       {/* For smaller screens */}
       <div
-        className={`navbar-small-screen ${nav ? 'active' : ''} fixed top-20 left-0 w-full shadow-lg z-20 bg-light-bg text-light-text dark:bg-dark-bg dark:text-dark-text`}
+        className={`navbar-small-screen ${
+          nav ? "active" : ""
+        } fixed top-20 left-0 w-full shadow-lg z-20 bg-light-bg text-light-text dark:bg-dark-bg dark:text-dark-text`}
       >
         <ul className="font-semibold text-center">
           <li className="py-5 nav-link">
