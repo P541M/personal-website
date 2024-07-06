@@ -12,7 +12,7 @@ const experiences = [
       "Javascript, React, Node.js, AWS, Typescript, MYSQL, Tailwind CSS, Svelte",
     otherTechnologies: "Scrum, Microsoft Suite, Google Suite",
     company: "Leading Logistics Firm",
-    jobTitle: "Fullstack Developer & Business Analyst Intern",
+    jobTitle: "Fullstack Dev & Business Analyst Intern",
   },
   {
     duration: "Jun 2021 - Aug 2023",
@@ -81,10 +81,10 @@ const Experience = () => {
   };
 
   return (
-    <div className="min-h-screen flex flex-col justify-center items-center bg-light-bg text-light-text dark:bg-dark-bg dark:text-dark-text transition-all duration-300 py-10 px-8 md:px-15">
-      <div className="max-w-screen-lg w-full">
+    <div className="flex flex-col justify-center items-center h-screen bg-light-bg text-light-text dark:bg-dark-bg dark:text-dark-text transition-all duration-300">
+      <div className="flex flex-col items-start max-w-screen-lg p-8 md:p-15">
         <h1 className="text-3xl md:text-6xl font-bold mb-5">
-          <span>1.</span> Experience
+          <span>1.</span>Experience
         </h1>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
           {experiences.map((exp, index) => (
