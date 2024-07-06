@@ -16,7 +16,7 @@ const Navbar = () => {
 
   useEffect(() => {
     const handleResize = () => {
-      if (window.innerWidth >= 768) {
+      if (window.innerWidth >= 1024) {
         setNav(false);
       }
     };
@@ -39,12 +39,12 @@ const Navbar = () => {
   return (
     <div className="z-50 fixed top-0 left-0 right-0 flex justify-between items-center max-w-auto h-20 px-4 text-l bg-light-bg text-light-text dark:bg-dark-bg dark:text-dark-text navbar">
       {/* Name - centered on small screens */}
-      <a href="#home" className="p-5 md:ml-0 mx-auto nav-link">
+      <a href="#home" className="p-5 lg:ml-0 mx-auto nav-link">
         <span>Eleazar</span>
       </a>
 
       {/* Right Side - hidden on small screens */}
-      <ul className="hidden md:flex font-semibold items-center">
+      <ul className="hidden lg:flex font-semibold items-center">
         <li className="p-5 text nav-link">
           <a href="#about">
             <span>0.</span>About
@@ -83,7 +83,7 @@ const Navbar = () => {
 
       <div
         onClick={handleNav}
-        className="block md:hidden fixed top-4 right-4 z-30"
+        className="block lg:hidden fixed top-4 right-4 z-30"
       >
         {nav ? <AiOutlineClose size={20} /> : <AiOutlineMenu size={20} />}
       </div>
@@ -92,7 +92,7 @@ const Navbar = () => {
       <div
         className={`navbar-small-screen ${
           nav ? "active" : ""
-        } fixed top-20 left-0 w-full shadow-lg z-20 bg-light-bg text-light-text dark:bg-dark-bg dark:text-dark-text`}
+        } fixed top-20 left-0 w-full shadow-lg z-20 bg-light-bg text-light-text dark:bg-dark-bg dark:text-dark-text lg:hidden`}
       >
         <ul className="font-semibold text-center">
           <li className="py-5 nav-link">
@@ -111,8 +111,8 @@ const Navbar = () => {
             </a>
           </li>
           <li className="py-5 nav-link">
-            <a href="#testimontials" onClick={handleNav}>
-              <span>3.</span>Testimontials
+            <a href="#testimonials" onClick={handleNav}>
+              <span>3.</span>Testimonials
             </a>
           </li>
           <li className="py-5 nav-link">

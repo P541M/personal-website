@@ -1,8 +1,8 @@
-import './App.css';
-import Navbar from './components/Navbar';
-import LandingPage from './components/LandingPage';
-import About from './components/About';
-import Experience from './components/Experience';
+import "./App.css";
+import Navbar from "./components/Navbar";
+import LandingPage from "./components/LandingPage";
+import About from "./components/About";
+import Experience from "./components/Experience";
 
 function App() {
   return (
