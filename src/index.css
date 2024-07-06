@@ -80,6 +80,17 @@ html::-webkit-scrollbar {
   scroll-behavior: smooth;
 }
 
+:root {
+  scroll-padding-top: 80px; /* Adjust this value based on your navbar height */
+}
+
+@media (min-width: 1024px) {
+  :root {
+    scroll-padding-top: 0px; /* Remove padding for larger screens */
+  }
+}
+
+
 /* Dark mode, text, bg, accent
 #E6E7EA
 #111f45
