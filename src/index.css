@@ -11,7 +11,7 @@
 
 body {
   font-family: "Inter", sans-serif;
-  @apply tracking-wide;
+  @apply tracking-wider;
   transition: background-color 0.3s ease, color 0.3s ease; /* Added transition for background and text color */
 }
 
@@ -58,6 +58,15 @@ span,
   color: transparent;
   font-family: "Space Mono";
   font-weight: 700;
+}
+
+/* Add these styles to enhance the transition smoothness */
+.transition-height {
+  transition: max-height 0.5s ease-in-out;
+}
+
+.transition-opacity {
+  transition: opacity 0.5s ease-in-out;
 }
 
 /* Dark mode, text, bg, accent
