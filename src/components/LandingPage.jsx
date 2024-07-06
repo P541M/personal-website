@@ -2,7 +2,7 @@ import React from "react";
 
 const LandingPage = () => {
   return (
-    <div className="flex flex-col justify-center items-center h-screen bg-light-bg text-light-text dark:bg-dark-bg dark:text-dark-text transition-all duration-300">
+    <div className="flex flex-col justify-center items-center h-screen bg-light-bg text-light-text dark:bg-dark-bg dark:text-dark-text">
       <div className="flex flex-col items-start max-w-screen-lg p-8 md:p-15">
         <p className="text-lg md:text-2xl mb-5">
           <span>Hey, my name is</span>

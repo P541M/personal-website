@@ -39,34 +39,34 @@ const Navbar = () => {
   return (
     <div className="z-50 fixed top-0 left-0 right-0 flex justify-between items-center max-w-auto h-20 px-4 text-l bg-light-bg text-light-text dark:bg-dark-bg dark:text-dark-text navbar">
       {/* Name - centered on small screens */}
-      <a href="#home" className="p-5 lg:ml-0 mx-auto nav-link">
+      <a href="home" className="p-5 lg:ml-0 mx-auto nav-link">
         <span>Eleazar</span>
       </a>
 
       {/* Right Side - hidden on small screens */}
       <ul className="hidden lg:flex font-semibold items-center">
         <li className="p-5 text nav-link">
-          <a href="#about">
+          <a href="about">
             <span>0.</span>About
           </a>
         </li>
         <li className="p-5 nav-link">
-          <a href="#experience">
+          <a href="experience">
             <span>1.</span>Experience
           </a>
         </li>
         <li className="p-5 nav-link">
-          <a href="#projects">
+          <a href="projects">
             <span>2.</span>Projects
           </a>
         </li>
         <li className="p-5 nav-link">
-          <a href="#testimonials">
+          <a href="testimonials">
             <span>3.</span>Testimonials
           </a>
         </li>
         <li className="p-5 nav-link">
-          <a href="#contact">
+          <a href="contact">
             <span>4.</span>Contact
           </a>
         </li>
@@ -96,27 +96,27 @@ const Navbar = () => {
       >
         <ul className="font-semibold text-center">
           <li className="py-5 nav-link">
-            <a href="#about" onClick={handleNav}>
+            <a href="about" onClick={handleNav}>
               <span>0.</span>About
             </a>
           </li>
           <li className="py-5 nav-link">
-            <a href="#experience" onClick={handleNav}>
+            <a href="experience" onClick={handleNav}>
               <span>1.</span>Experience
             </a>
           </li>
           <li className="py-5 nav-link">
-            <a href="#projects" onClick={handleNav}>
+            <a href="projects" onClick={handleNav}>
               <span>2.</span>Projects
             </a>
           </li>
           <li className="py-5 nav-link">
-            <a href="#testimonials" onClick={handleNav}>
+            <a href="testimonials" onClick={handleNav}>
               <span>3.</span>Testimonials
             </a>
           </li>
           <li className="py-5 nav-link">
-            <a href="#contact" onClick={handleNav}>
+            <a href="contact" onClick={handleNav}>
               <span>4.</span>Contact
             </a>
           </li>

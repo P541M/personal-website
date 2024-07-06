@@ -12,7 +12,6 @@
 body {
   font-family: "Inter", sans-serif;
   @apply tracking-wider;
-  transition: background-color 0.3s ease, color 0.3s ease; /* Added transition for background and text color */
 }
 
 /* Light mode */
@@ -29,8 +28,7 @@ body {
 .navbar,
 .navbar-small-screen,
 .nav-link {
-  transition: background-color 0.3s ease, color 0.3s ease, opacity 0.3s ease,
-    visibility 0.3s ease, transform 0.3s ease;
+  transition: opacity 0.3s ease, visibility 0.3s ease, transform 0.3s ease;
 }
 
 /* Small screen navbar transitions */
