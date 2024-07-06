@@ -81,7 +81,7 @@ const Experience = () => {
   };
 
   return (
-    <div className="min-h-screen flex flex-col justify-center items-center bg-gradient-to-b from-light-bg to-dark-bg dark:from-dark-bg dark:to-dark-bg transition-all duration-300 py-10 px-8 md:px-15">
+    <div className="min-h-screen flex flex-col justify-center items-center bg-light-bg text-light-text dark:bg-dark-bg dark:text-dark-text transition-all duration-300 py-10 px-8 md:px-15">
       <div className="max-w-screen-lg w-full">
         <h1 className="text-3xl md:text-6xl font-bold mb-5">
           <span>1.</span> Experience
