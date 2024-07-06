@@ -51,7 +51,7 @@ const experiences = [
     location: "Waterloo, Ontario, Canada",
     workType: "Remote",
     description: "",
-    technologies: "Adobe Suite, HTML/CSS, JavaScript, Wix",
+    technologies: "Adobe Suite, HTML/CSS, Wix",
     otherTechnologies: "Slack, Google Suite",
     company: "Seeds of Diversity Canada",
     jobTitle: "Video Editor & Frontend Dev Intern",
