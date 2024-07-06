@@ -67,6 +67,17 @@ span,
   transition: opacity 0.5s ease-in-out;
 }
 
+/* Hide scroll bar while maintaining scroll functionality */
+html {
+  overflow: -moz-scrollbars-none; /* Firefox */
+  -ms-overflow-style: none; /* Internet Explorer 10+ */
+  scrollbar-width: none; /* Firefox */
+}
+
+html::-webkit-scrollbar {
+  display: none; /* Safari and Chrome */
+}
+
 /* Dark mode, text, bg, accent
 #E6E7EA
 #111f45
