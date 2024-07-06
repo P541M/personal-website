@@ -4,7 +4,7 @@ const About = () => {
   return (
     <div className="flex flex-col justify-center items-center h-screen bg-light-bg text-light-text dark:bg-dark-bg dark:text-dark-text transition-all duration-300">
       <div className="flex flex-col items-start max-w-screen-lg p-8 md:p-15">
-        <h1 className="text-3xl md:text-6xl font-bold mb-5">Who Am I?</h1>
+        <h1 className="text-3xl md:text-6xl font-bold mb-5"><span>0.</span>About</h1>
         <p className="text-md md:text-xl mb-5 primary-color">
           Hi there! I'm Psalm Eleazar Gamilo Videna (long name ik, call me
           Ellie).
